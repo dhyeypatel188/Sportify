@@ -2,7 +2,7 @@ import {
   addSong,
   listSong,
   removeSong,
-} from "../controllers/songcontroller.js";
+} from "../controllers/songController.js";
 import express from "express";
 import upload from "../middlewares/multer.js";
 const songRouter = express.Router();
